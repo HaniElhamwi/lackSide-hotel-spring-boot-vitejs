@@ -227,3 +227,39 @@ h2 {
   height: 60px;
   text-align: center;
 }
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.mb-2 {
+  margin-bottom: 1rem;
+}
+.mt-2 {
+  margin-top: 1rem;
+}
